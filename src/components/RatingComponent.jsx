@@ -23,14 +23,14 @@ function RatingComponent({array,setArray,selected,setSelected,setSubmited}) {
           alt="star"
         />
       </div>
-      <h1 className="text-white font-bold lg:text-3xl lg:mt-5">
+      <h1 className="text-white font-bold xs:text-xl lg:text-3xl mt-5">
         How did we do?
       </h1>
-      <p className="text-light-gray lg:mt-5 lg:text-base">
+      <p className="text-light-gray mt-5 xs:text-sm lg:text-base">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <div className="flex w-full justify-between lg:mt-5">
+      <div className="flex w-full justify-between mt-5">
         {array.map((i, index) => {
           return (
             <div
@@ -43,7 +43,7 @@ function RatingComponent({array,setArray,selected,setSelected,setSubmited}) {
           );
         })}
       </div>
-      <button onClick={()=>selected&&setSubmited(true)} className="w-full h-10 bg-orange rounded-2xl lg:mt-10 font-bold">Submit</button>
+      <button onClick={()=>selected&&setSubmited(true)} className="w-full h-10 bg-orange rounded-2xl mt-10 font-bold">Submit</button>
     </div>
   );
 }
