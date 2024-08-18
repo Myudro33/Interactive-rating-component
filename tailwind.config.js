@@ -11,6 +11,10 @@ export default {
       "light-gray":"hsl(217, 12%, 63%)",
       "dark-blue":" hsl(213, 19%, 18%)",
       "very-dark-blue":"hsl(216, 12%, 8%)"
+    },
+    screens:{
+      "xs":"375px",
+      "lg":"1440px"
     }
   },
   plugins: [],
