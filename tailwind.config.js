@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {},
     colors:{
+      "orange":"hsl(25, 97%, 53%)",
       "white": "hsl(0, 0%, 100%)",
       "light-gray":"hsl(217, 12%, 63%)",
       "dark-blue":" hsl(213, 19%, 18%)",
