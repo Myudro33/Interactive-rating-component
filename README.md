@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/reacttailwind-BfcRmc47tc)
-- Live Site URL: [Add live site URL here](https://main--myudro33-interactive-rating-component.netlify.app/)
+- Solution URL: [click me](https://www.frontendmentor.io/solutions/reacttailwind-BfcRmc47tc)
+- Live Site URL: [click me](https://main--myudro33-interactive-rating-component.netlify.app/)
 
 ## My process
 
